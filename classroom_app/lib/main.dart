@@ -83,18 +83,6 @@ void main() {
             ),
           ],
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.grey[300],
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.home,
-                color: Colors.black,
-              ),
-              label: 'Students',
-            ),
-          ],
-        ),
       ),
     ),
   );
